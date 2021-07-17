@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.AboutUs.AboutUsFragment">
+
+    <TextView
+        android:id="@+id/party"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Indian National Congress"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:src="@drawable/inclogo"
+        android:layout_below="@+id/party"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="165dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/logo">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TableLayout
+                android:id="@+id/tablelayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingRight="2dip">
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TextViewStandard"
+                        android:layout_weight="1"
+
+                        android:text="Abbreviation" />
+
+                    <TextView
+                        style="@style/EditTextStandard"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="INC" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TextViewStandard"
+
+                        android:layout_weight="1"
+                        android:text="President" />
+
+                    <TextView
+                        style="@style/EditTextStandard"
+                        android:layout_weight="1"
+                        android:text="Sonia Ganghi" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TextViewStandard"
+
+                        android:layout_weight="1"
+                        android:text="Parliamentary Chairperson" />
+
+                    <TextView
+                        style="@style/EditTextStandard"
+                        android:layout_weight="1"
+                        android:text="Sonia Ganghi" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TextViewStandard"
+                        android:layout_weight="1"
+                        android:text="Founded" />
+
+                    <TextView
+                        style="@style/EditTextStandard"
+                        android:layout_weight="1"
+                        android:text="28 December 1885" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TextViewStandard"
+                        android:layout_weight="1"
+                        android:text="Headquarters" />
+
+                    <TextView
+                        style="@style/EditTextStandard"
+                        android:layout_weight="1"
+                        android:text="24, Akbar Road, New Delhi-110001" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TextViewStandard"
+                        android:layout_weight="1"
+                        android:text="Presidium" />
+
+                    <TextView
+                        style="@style/EditTextStandard"
+                        android:layout_weight="1"
+                        android:text="Congress Working Committee" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TextViewStandard"
+                        android:layout_weight="1"
+                        android:text="Lok Sabha leader" />
+
+                    <TextView
+                        style="@style/EditTextStandard"
+                        android:layout_weight="1"
+                        android:text="Ravneet Singh Bittu" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TextViewStandard"
+                        android:layout_weight="1"
+                        android:text="Rajya Sabha leader" />
+
+                    <TextView
+                        style="@style/EditTextStandard"
+                        android:layout_weight="1"
+                        android:text="Mallikarjun Kharge (Leader of the Opposition)" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Inc"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/aboutInc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutInc"
+                android:justificationMode="inter_word"
+                android:padding="3dp"
+                android:textSize="16dp"
+                android:textColor="@android:color/holo_blue_dark"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

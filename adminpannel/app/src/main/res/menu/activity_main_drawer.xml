@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_News"
+            android:icon="@drawable/ic_news"
+            android:title="@string/menu_News" />
+        <item
+            android:id="@+id/nav_publicIssue"
+            android:icon="@drawable/ic_news"
+            android:title="@string/public_issues" />
+
+        <item
+            android:title="MEDIA">
+            <menu>
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_gallery"
+                    android:title="@string/menu_gallery" />
+                <item
+                    android:id="@+id/nav_media"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Ebooks"/>
+                <item
+                    android:id="@+id/forms"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Forms"/>
+            </menu>
+        </item>
+
+        <item
+            android:title="USERS">
+            <menu>
+                <item
+                   android:onClick="newmem"
+                    android:icon="@drawable/ic_newuser"
+                    android:title="New User"/>
+                <item
+                    android:id="@+id/nav_allUsers"
+                    android:icon="@drawable/ic_newuser"
+                    android:title="All Users"/>
+                <item
+                    android:id="@+id/deleteUsers"
+                    android:icon="@drawable/ic_remove_user"
+                    android:title="Delete Users"/>
+            </menu>
+        </item>
+        <item
+            android:title="VOTERS">
+            <menu>
+                <item
+                    android:id="@+id/nav_dataview"
+                    android:icon="@drawable/ic_data"
+                    android:title="Voter Data"/>
+                <item
+                    android:id="@+id/nav_crtVoter"
+                    android:icon="@drawable/ic_newuser"
+                    android:title="New Voter"/>
+                <item
+                    android:id="@+id/deleteVoters"
+                    android:icon="@drawable/ic_remove_user"
+                    android:title="Delete Voters"/>
+            </menu>
+        </item>
+
+    </group>
+</menu>

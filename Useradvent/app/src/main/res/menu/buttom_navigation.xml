@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@id/nav_news"
+        android:title="News"
+        android:icon="@drawable/ic_news"/>
+    <item
+        android:id="@id/nav_gallery"
+        android:title="Gallery"
+        android:icon="@drawable/ic_gallery"/>
+    <item
+        android:id="@id/nav_data"
+        android:title="VoterData"
+        android:icon="@drawable/ic_data"/>
+    <item
+        android:id="@id/nav_aboutUs"
+        android:title="About Us"
+        android:icon="@drawable/ic_information"/>
+
+</menu>

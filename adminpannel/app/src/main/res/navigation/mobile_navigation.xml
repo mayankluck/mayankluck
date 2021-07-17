@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.adminpannel.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_News"
+        android:name="com.example.adminpannel.ui.News.News"
+        android:label="News"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.adminpannel.ui.gallery.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_dataview"
+        android:name="com.example.adminpannel.ui.VoterData.dataview"
+        android:label="Voter Data"
+        tools:layout="@layout/fragment_dataview" />
+    <fragment
+        android:id="@+id/nav_media"
+        android:name="com.example.adminpannel.media"
+        android:label="fragment_media"
+        tools:layout="@layout/fragment_media" />
+    <fragment
+        android:id="@+id/nav_allUsers"
+        android:name="com.example.adminpannel.ui.Users.AllUsers"
+        android:label="fragment_all_users"
+        tools:layout="@layout/fragment_all_users" />
+    <fragment
+        android:id="@+id/nav_crtVoter"
+        android:name="com.example.adminpannel.ui.VoterData.crtVoter"
+        android:label="fragment_crt_voter"
+        tools:layout="@layout/fragment_crt_voter" />
+    <fragment
+        android:id="@+id/nav_publicIssue"
+        android:name="com.example.adminpannel.ui.PublicIssues.PublicIssue"
+        android:label="fragment_nav_public_issue"
+        tools:layout="@layout/fragment_nav_public_issue" />
+
+
+</navigation>

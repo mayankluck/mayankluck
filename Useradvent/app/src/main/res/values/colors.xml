@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="loginBt">#B43F51B5</color>
+    <color name="orange">#FDDE7F</color>
+    <color name="space">#B5B1B2</color>
+    <color name="view">#C1C1C1</color>
+    <color name="light_black">#B4363637</color>
+    <color name="light_blue">#B48383DD</color>
+    <color name="databackground">#00d2ff</color>
+    <color name="homeBack">#E3EDEF</color>
+    <color name="red">#EA135C</color>
+    <color name="newsBlue">#96A5F8</color>
+    <color name="gray">#D9DAE1</color>
+    <color name="blue">#1E38EC</color>
+    <color name="green">#15F61E</color>
+    <color name="evmBt">#2B5FFB</color>
+    <color name="eleBt">#E1F5FD</color>
+    <color name="profileback">#727373</color>
+
+
+</resources>
